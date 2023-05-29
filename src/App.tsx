@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/layout";
 import RegisterLogin from "./pages/RegisterLogin";
-import './App.css'
+import "./App.css";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
